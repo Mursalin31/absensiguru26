@@ -1,0 +1,24 @@
+ABSENSI GURU - SD NEGERI 12 BEBESEN (paket aplikasi / PWA)
+
+ISI PAKET
+  index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png
+
+CARA MEMASANG (3 LANGKAH)
+1. Unggah SEMUA file ke hosting statis gratis berbasis HTTPS, pilih salah satu:
+   - Netlify Drop: buka app.netlify.com/drop lalu seret folder berisi file-file ini.
+   - GitHub Pages atau Firebase Hosting.
+   (Harus HTTPS; tidak bisa dipasang bila hanya dibuka dari file di HP.)
+2. Buka alamat situsnya di Chrome (Android): menu titik tiga > "Instal aplikasi" / "Tambahkan ke layar utama".
+   iPhone (Safari): tombol Bagikan > "Tambah ke Layar Utama".
+3. Ikon "Absen Guru" muncul di layar utama dan terbuka layar penuh seperti aplikasi.
+
+MEMBUAT FILE APK (OPSIONAL)
+  Setelah situs aktif di HTTPS, buka pwabuilder.com, masukkan alamat situs,
+  lalu pilih Package for Stores > Android untuk mendapatkan APK/AAB.
+
+CATATAN PENTING
+  - Data absen tersimpan di perangkat masing-masing (penyimpanan lokal). Cadangan online
+    otomatis yang ada di versi claude.ai TIDAK aktif di paket ini.
+  - Untuk menyatukan data banyak guru, pakai fitur "Kirim Setoran ke Operator" / "Terima Setoran dari Guru",
+    atau gunakan versi online di claude.ai bagi yang punya akses.
+  - Pustaka Excel dan font dimuat dari internet saat pertama dibuka, setelah itu tersimpan untuk dipakai offline.

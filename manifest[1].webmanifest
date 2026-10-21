@@ -1,0 +1,26 @@
+{
+  "name": "Absensi Guru - SD Negeri 12 Bebesen",
+  "short_name": "Absen Guru",
+  "description": "Aplikasi absensi guru SD Negeri 12 Bebesen",
+  "lang": "id",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#eef6ff",
+  "theme_color": "#5b3df5",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
